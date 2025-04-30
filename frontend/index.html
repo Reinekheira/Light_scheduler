@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Light Scheduler</h1>
+        <div class="schedule-form">
+            <div class="time-input">
+                <label for="on-time">ON Time:</label>
+                <input type="time" id="on-time" required>
+            </div>
+            <div class="time-input">
+                <label for="off-time">OFF Time:</label>
+                <input type="time" id="off-time" required>
+            </div>
+            <button id="submit-btn">Set Schedule</button>
+        </div>
+        <div class="status">
+            <h2>Current Status</h2>
+            <p id="current-state">Light: Unknown</p>
+            <p id="next-event">Next event: Not scheduled</p>
+        </div>
+        <div class="schedule-list">
+            <h2>Active Schedule</h2>
+            <ul id="schedule-items"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
