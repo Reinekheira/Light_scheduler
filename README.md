@@ -22,3 +22,8 @@ A web-based IoT dashboard to schedule lights using WebSocket and MQTT communicat
    ```bash
    git clone https://github.com/yourusername/light-scheduler.git
    cd light-scheduler
+## Screenshot references
+
+1.https://github.com/Reinekheira/Light_scheduler/blob/main/Screenshot%202025-04-30%20075407.png?raw=true
+
+2.https://github.com/Reinekheira/Light_scheduler/blob/main/Screenshot%202025-04-30%20075437.png?raw=true
